@@ -34,7 +34,7 @@ const Read = () => {
     }
 
     if (response.ok) {
-      setError("data removed successfullt");
+      setError("data removed successfully");
 
       getData();
       setTimeout(() => {
